@@ -1,12 +1,16 @@
 <!DOCTYPE HTML>
 <html id="html3">
 <head>
+<link rel="stylesheet" href="style.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>about me!</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/x-icon" href="imgs/help.ico">
 </head>
 <body>
+<div id="banner" onclick="bannerclicked()">
+<p id="banner-text">p1's cool site!</p>
+</div>
 <ul>links:
 <li><a href="index.html">main page</a></li>
 <li><a href="projects.html">projects page</a></li>
@@ -21,6 +25,14 @@
 <li>videos!</li>
 <li>and more!</li>
 <img src="imgs/Under_Construction.gif" alt="Under Construction">
+<script>
+//header
+//code
+function bannerclicked()
+{
+    window.location.replace("index.html");
+}
+</script>
 </ul>
 </body>
 </html>

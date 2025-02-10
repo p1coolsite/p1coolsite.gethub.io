@@ -67,3 +67,28 @@
 #html3{
 	background-color:#0F0
 }
+
+#banner{
+  background-color: lightgreen;
+  text-align: center;
+}
+
+#banner-text{
+  animation-name: banner-anim;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#banner:hover{
+  cursor: pointer;
+}
+
+@keyframes banner-anim{
+  0%{
+    transform: translateX(620px);
+  }
+  100%{
+    transform: translateX(-620px);
+  }
+}
